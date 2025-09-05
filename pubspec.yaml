@@ -30,7 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  ultralytics_yolo: ^0.1.26
+  ultralytics_yolo: ^0.1.34
   image_picker: ^1.1.2
   path: ^1.9.1
   path_provider: ^2.1.5
