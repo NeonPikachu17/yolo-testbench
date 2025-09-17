@@ -2,7 +2,7 @@
 
 **YOLO TestBench** is a powerful and versatile mobile application built with Flutter that leverages the **Ultralytics YOLO** library to perform various computer vision tasks directly on your device. The app allows users to easily import and manage YOLO models for object detection, instance segmentation, and image classification from their local storage.
 
-## ✨ Features
+## Features
 
 * **Multi-Task Support**: Dynamically switch between three core YOLO tasks:
     * **Object Detection** (`detect`): Draws bounding boxes around objects and labels them.
@@ -17,7 +17,7 @@
     * For detection and segmentation, tap on a result in the list to highlight its bounding box on the image.
     * Control the visibility and opacity of segmentation masks.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -38,7 +38,7 @@
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/vision_ai.git](https://github.com/your-username/vision_ai.git)
+    git clone [https://github.com/NeonPikachu17/yolo-testbench.git](https://github.com/NeonPikachu17/yolo-testbench.git)
     cd vision_ai
     ```
 2.  **Install dependencies:**
@@ -50,7 +50,7 @@
     flutter run
     ```
 
-## 🧠 How It Works
+## How It Works
 
 This application uses the `ultralytics_yolo` Flutter package, a powerful tool for integrating YOLO models into mobile apps. The core logic handles:
 
@@ -59,6 +59,6 @@ This application uses the `ultralytics_yolo` Flutter package, a powerful tool fo
 3.  **Inference**: The app passes the selected image's byte data to the loaded YOLO model for prediction.
 4.  **Result Rendering**: Based on the model's output and the selected task, a `CustomPainter` draws the appropriate visualizations (bounding boxes, masks, and labels) over the original image.
 
-## 🔧 Model Compatibility
+## Model Compatibility
 
 This app is designed to work with YOLO models in the **TensorFlow Lite (`.tflite`)** format.
